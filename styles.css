@@ -1,0 +1,81 @@
+*{
+    color: black;
+}/*color of text*/
+a{
+    color: blue;
+}/*links are blue*/
+table#p2table{
+    width: 1000px;
+    height: 300px;
+    border-spacing: 10px 15px;
+    color: black;
+}/*table sizing and text color*/
+form.form{
+    background-color: pink;
+}/*form background*/
+tr{
+    padding: 7px 10px 10px 10px;
+}/*padding for table headers*/
+td.main{
+    border: 3px solid lightblue;
+    text-align: center;
+    background-color: pink;
+}
+th{
+    border: 3px solid lightblue;
+    text-align: center;
+    background-color: pink;
+}
+th.Year{
+    border: 3px solid lightblue;
+    text-align: center;
+    background-color: pink;
+}
+td.end{
+    border: 5px solid lightblue;
+    text-align: center;
+    background-color: pink;
+}/*all bordering and backgrounds for cells of table*/
+.nav{
+    font-size:larger;
+    background-color: lightblue;
+    border: 3px solid pink;
+}/*Navbar coloring*/
+body {
+    background-color: rgb(242, 218, 222);
+    color: white;
+    padding: 20px;
+}/*body texts info */
+footer{
+    font-size:small;
+    text-align: right;
+    margin-top: 100px;
+    background-color: lightblue;
+}/*Styling footer */
+aside{
+    text-align: center;
+    margin-left: 900px;
+    margin-top: -605px;
+    width: 400px;
+    border: 5px solid lightblue;
+    background-color: lightblue;
+}/*Get the aside done correctly and in the right place*/
+article.first{
+    background-image: url("images/StartingLine.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50px 70px;
+    height: 575px;}
+article.first>p{
+    font-size: large;
+    font-family: 'Courier Prime', Verdana, Tahoma, sans-serif, monospace ;
+}/*Stuff for the first section, using a google font*/
+article{
+    width:850px;
+    padding-left: 40px;
+}/*size the second section of text correctly*/
+.homeImg{
+    padding-left: 30px;
+}/*get padding done right for images on home page*/
+.second{
+    margin-top: 100px;
+}/*Get margins done right for spacing purposes*/
